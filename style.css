@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@200;300&family=Lato:wght@700&family=Martel+Sans:wght@300;800&family=Open+Sans:wght@500&family=Outfit:wght@100;200;300&family=Poppins:wght@400;600&family=Roboto&family=Rosario:wght@300;700&family=Work+Sans:wght@300;400;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  /* border: 1px solid red; */
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  background-image: url("netflix.jpg");
+  padding-bottom: 120px;
+}
+.logo img {
+  margin-left: 50px;
+  width: 150px;
+  height: 120px;
+}
+container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+container-1 h1 {
+  width: 150px;
+}
+.box {
+  border-radius: 5px;
+  padding: 5%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 20px;
+  background: rgba(1, 1, 1, 0.6);
+}
+.box form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.box form input {
+  border-radius: 5px;
+  font-size: larger;
+  padding: 5%;
+  color: white;
+  background-color: rgba(75, 65, 65, 0.8);
+  outline: none;
+  width: 300px;
+  height: 50px;
+}
+.box form input::placeholder {
+  font-size: 12px;
+}
+.box form button {
+  background-color: red;
+  outline: none;
+  color: white;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+}
+.forget_text {
+  gap: 100px;
+  color: grey;
+  align-items: center;
+  display: flex;
+}
+.box p {
+  color: grey;
+}
+
+@media (max-width: 600px) {
+  .box {
+    margin-top: 100px;
+  }
+}

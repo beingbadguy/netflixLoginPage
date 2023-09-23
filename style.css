@@ -78,4 +78,6 @@ container-1 h1 {
   .box {
     margin-top: 100px;
   }
+  main{
+    height:1024px;
 }
